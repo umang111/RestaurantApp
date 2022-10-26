@@ -1,0 +1,13 @@
+server:
+  port: 8094
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/restaurant_app_cart
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  application:
+    name: order-service
